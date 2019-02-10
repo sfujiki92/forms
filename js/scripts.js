@@ -1,8 +1,8 @@
 $(document).ready(function(){
   $("#blanks form").submit(function(event) {
-    var commentInput = $("input#comment").val();
+    var commentTextarea = $("textarea#comment").val();
 
-    $(".comment").text(commentInput.toUpperCase());
+    $(".comment").text(commentTextarea.toUpperCase());
 
     $("#commentBox").show();
 
